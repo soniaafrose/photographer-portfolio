@@ -6,8 +6,21 @@ body {
   height: 100vh;
   background: url('../images/photo4.jpg') center/cover no-repeat;
 }
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
 .portfolio-img {
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
