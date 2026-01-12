@@ -7,18 +7,6 @@ body {
   background: url('../images/photo4.jpg') center/cover no-repeat;
 }
 
-.hero-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.hero-section .container {
-  position: relative;
-  z-index: 2;
-}
-
 .portfolio-img {
   border-radius: 5px;
   cursor: pointer;
@@ -26,7 +14,7 @@ body {
 }
 
 .portfolio-img:hover {
-  transform: scale(1.05);
+  transform: scale(0.05);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 footer {
