@@ -8,14 +8,15 @@ body {
 }
 
 .portfolio-img {
-  border-radius: 5px;
+  width: 50%;
+  border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .portfolio-img:hover {
   transform: scale(0.05);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 footer {
   font-size: 14px;
