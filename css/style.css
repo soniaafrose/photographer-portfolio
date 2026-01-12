@@ -1,0 +1,17 @@
+body {
+  padding-top: 70px;
+}
+
+.hero-section {
+  height: 100vh;
+  background: url('../images/photo1.jpg') center/cover no-repeat;
+}
+.portfolio-img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.05);
+}
