@@ -9,7 +9,7 @@ body {
 .hero-section::before {
   content: "";
   position: absolute;
-  inset: 0;
+  /* inset: 0; */
   /* background: rgba(0, 0, 0, 0.5);*/
 }
 
